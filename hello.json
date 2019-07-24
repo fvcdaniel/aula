@@ -30,10 +30,6 @@
                         "containerPort":8080,
                         "protocol":"TCP"
                      }],
-                    "env":[{
-                        "name": "KUBE_INSECURE",
-                        "value": "false"
-                    }]
                   }]
                }
             }
