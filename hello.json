@@ -52,7 +52,7 @@
              "type": "LoadBalancer",
              "ports": [{
                  "protocol": "TCP",
-                 "port": 443,
+                 "port": 8083,
                  "targetPort": 8080
              }],
             "selector":{
