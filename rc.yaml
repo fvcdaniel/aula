@@ -13,7 +13,7 @@ spec:
         app: flask-inspector
     spec:
       containers:
-      - name: flask_inspector
+      - name: flask-inspector
         image: fvcdaniel/flask_inspector:latest
         ports:
         - containerPort: 5000
