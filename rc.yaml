@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: flask_inspector
+spec:
+  replicas: 3
+  selector:
+    app: flask_inspector
+  template:
+    metadata:
+      name: flask_inspector
+      labels:
+        app: flask_inspector
+    spec:
+      containers:
+      - name: flask_inspector
+        image: fvcdaniel/flask_inspector:latest
+        ports:
+        - containerPort: 5000
+        protocol: TCP
