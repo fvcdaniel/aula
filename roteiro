@@ -1,0 +1,21 @@
+Prática Kubernetes
+
+Criando cluster
+
+Acesse o console do google cloud platform e no menu clique em Kubernetes Engine > Clusters.
+Clique em create cluster, no item Security check ‘Enable basic authentication’
+Clique em criar.
+
+Adicionando Cockpit
+
+    Clique no cluster recém criado e logo em seguida clique em ‘show credencials’ e guarde o usuário e senha.
+
+    Seguir tutorial do link: up-and-running-cockpit-for-google-kubernetes-engine.
+
+Levantando a primeira aplicação
+
+docker pull fvcdaniel/flask_inspector:latest
+git clone https://github.com/fvcdaniel/aula.git
+cd aula
+kubectl apply -f ./rc.yaml
+kubectl apply -f ./svc.yaml
