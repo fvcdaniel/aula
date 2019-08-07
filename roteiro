@@ -10,7 +10,7 @@ Adicionando Cockpit
 
     Clique no cluster recém criado e logo em seguida clique em ‘show credencials’ e guarde o usuário e senha.
 
-    Seguir tutorial do link: up-and-running-cockpit-for-google-kubernetes-engine.
+    Seguir tutorial do link: https://itnext.io/up-and-running-cockpit-for-google-kubernetes-engine-gke-4aca68f182bf
 
 Levantando a primeira aplicação
 
